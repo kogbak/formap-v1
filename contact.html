@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formap Presentation</title>
+
+    <!--BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!--ICONE-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css">
+
+    <!--GOOGLE FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+
+    <!--STYLE CSS-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!--NAVBAR==================================================================-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand mx-5" href="index.html"><img src="./images/Formap.png" class="w-25" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
+                    <ul class="navbar-nav p-2 mx-5">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="concept.html">Concept</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="titre" class="container-fluid">
+            <div class="row">
+                <h1 class="text-center mt-5">CONTACT</h1>
+                <i class="fas fa-chevron-circle-down fa-3x text-center"></i>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+
+        <!--FORMULAIRE==================================================================-->
+
+        <section id="formulaire">
+            <div class="container w-50">
+
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">
+                            <h3>Nom : </h3>
+                        </label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">
+                            <h3>Adresse mail : </h3>
+                        </label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">
+                            <h3>Question : </h3>
+                        </label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Comment puis-je vous aidé ?</option>
+                            <option value="1">Service commercial</option>
+                            <option value="2">Demande de renseignement supplémentaires</option>
+                            <option value="3">Autre</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">
+                            <h3>Message : </h3>
+                        </label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+
+
+
+
+                    <button type="submit" class="btn btn-envoyer">Envoyer</button>
+                </form>
+            </div>
+        </section>
+
+
+        <section id="mes-reseaux ">
+
+            <div class="container ">
+
+            <div class="row">
+
+                <div class="col-12 text-center">
+
+                    <h1>NOUS SUIVRES SUR NOS RESEAUX</h1>
+
+                    <div class="row espacement">
+                        <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center flex-column">
+                            
+                            <img src="./images/pol-github.png" alt="github" class="w-50 github-logo ">
+                            <button class="btn btn-github mt-5"><div class="eye-1"><i class="fermer fas fa-eye-slash fa-2x"></i> <i class="ouvert fas fa-eye fa-2x"></i></div></button>
+                        </div>
+                        <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center flex-column">
+                            
+                            <img src="./images/pol-linkedin.png" alt="linkedin" class="w-50 linkedin-logo mt-5 mt-lg-0">
+                            <button class="btn btn-linkedin mt-5"><div class="eye-2"><i class="fermer fas fa-eye-slash fa-2x"></i> <i class="ouvert fas fa-eye fa-2x"></i></div></button>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+            </div>
+
+        </section>
+
+        <main>
+
+
+        </main>
+
+        <!--FOOTER ==================================================================-->
+    <footer>
+        <div class="container border-top border-secondary mb-5">
+    
+          <div class="row mt-4">
+    
+            <h2 class="text-center text-lg-start p-2">Index</h2>
+    
+            <div class="col-12 d-flex justify-content-center justify-content-lg-start ">
+    
+              
+                <ul>
+                    <a href="index.html"><li>- Accueil</li></a>
+                    <a href="concept.html"><li>- Concept</li></a>
+                    <a href="contact.html"><li>- Contact</li></a>
+                  </ul>
+            </div>
+    
+            
+    
+    <div class="row">
+            <div class="col-12 order-1 d-flex align-items-center  justify-content-center justify-content-lg-end p-2">
+    
+              <button class="btn"><i class="fab fa-linkedin-in"></i></button>
+              <button class="btn ms-3"><i class="fab fa-github-alt"></i></button>
+            </div>
+          </div>
+    
+          <div class="row">
+            <div class="col-12 d-flex align-items-end justify-content-center p-2">
+    
+              <p>© Formap 2021 . 2022</p>
+    
+            </div>
+          </div>
+    
+    
+          </div>
+    
+        </div>
+      </footer>
+
+
+    <!--JS BOOTSTRAP==================================================================-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
