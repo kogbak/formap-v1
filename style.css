@@ -1,0 +1,196 @@
+/* GLOBAL ***********************/
+
+body{
+    font-family: 'Roboto', sans-serif;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-weight: 900;
+    color: #3D3D3D;
+}
+
+h2{
+
+    font-weight: 700;
+    color: #3D3D3D;
+}
+
+h4{
+
+    font-weight: 300;
+    color: #9c7c7c;
+}
+
+.btn-purple{
+
+    background-color: #bd34d0;
+    color: #fff;
+    transition: 0.6s;
+
+}
+
+.btn-purple:hover{
+
+    background-color: #fff;
+    color: #bd34d0;
+
+}
+
+p{
+    line-height: 2em;
+}
+
+section{
+
+    margin: 150px 0;
+}
+
+/* NAVBAR ***********************/
+
+nav{
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 7px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+/* HEADER ***********************/
+
+#header-accueil{
+
+    background-image: url(./images/photo-header.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    width: 100vw;
+    padding: 100px;
+}
+
+
+/* Dernier formateur ***********************/
+
+
+#formateurs img, #entreprises img{
+
+    width: 20rem;
+    padding: 20px 20px 0 0;
+    margin: 0 auto;
+   
+
+}
+
+#formateurs, #entreprises{
+
+   
+    color: #c2c2c2;
+
+}
+
+#formateurs i, #entreprises i{
+
+   
+    color: #bd34d0;
+
+}
+
+/* FOOTER ***********************/
+
+footer ul{
+
+    list-style: none;
+    padding-left: 0px;
+}
+
+footer .btn{
+
+    background-color: #bd34d0;
+    color: #fff;
+    transition: 0.6s;
+}
+
+footer .btn:hover{
+
+    background-color: #fff;
+    color: #bd34d0;
+
+}
+
+
+/* PAGE 2 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+/* CAROUSEL ***********************/
+
+#carousel{
+
+    box-shadow: 0px 0px 10px 7px rgba(0, 0, 0, 0.1);
+    
+    border-radius: 15px;
+
+}
+
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+
+    background-color: #bd34d0;
+}
+
+#carousel i{
+
+    color: #6b6bdb;
+}
+
+#titre{
+
+    background-color: #bd34d0;
+    height: 20vh;
+    color: #fff;
+}
+
+#titre h1, i{
+
+    color: #fff;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 767px){
+
+    #formateurs img, #entreprises img{
+
+        width: 80vw;
+      
+    }
+
+    p{
+
+   
+        font-size: 24px;
+    
+    }
+
+    footer ul, i{
+
+        font-size: 30px;
+    }
+
+    .btn-purple{
+
+        font-size: 30px;
+    
+    }
+
+}
+    
+
+
+
+
+
+
+
